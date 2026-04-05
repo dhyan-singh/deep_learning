@@ -1,5 +1,5 @@
 [project]
-name = "utils"
+name = "dl-utils"
 version = "0.1.0"
 description = "Utility functions for my ML project"
 authors = [{name = "Dhyan"}]
@@ -11,4 +11,4 @@ build-backend = "setuptools.build_meta"
 
 [tool.setuptools.packages.find]
 where = ["."]
-include = ["utils*"]
+include = ["dl_utils*"]
